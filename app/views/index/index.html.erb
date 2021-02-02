@@ -1,1 +1,7 @@
-<div id="hello">Hello, world!</div>
+<div id="hello">
+  Hello, world!
+
+  <%= form_with url: "/auth/developer" do |form| %>
+    <%= form.submit %>
+  <% end %>
+</div>
